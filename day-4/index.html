@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimídia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+<!-- 
+instruções
+Cabeçalho da Página:
+Dentro da tag <head>, adicione a tag <style> para definir alguns estilos básicos inline para a página;
+Corpo da Página:
+Dentro da tag <body>, adicione os seguintes elementos:
+Header:
+Utilize a tag <header> para incluir um título da página (<h1>), um subtítulo (<h2>), e um parágrafo de introdução (<p>);
+Navegação:
+Utilize a tag <nav> para criar um menu de navegação com links (<a>) para as diferentes seções da página (use tags <ul> e <li>);
+Adicione uma nova seção para mídia, incluindo áudio e vídeo
+-->
+    <style>
+        body {
+            font-family: sansita, monospace;
+            display: block;
+        }
+
+        u {
+            font-size: 22px;
+        }
+
+
+        a:hover {
+            text-decoration: none;
+            color: red;
+        }
+
+        a {
+            text-decoration: none;
+            color: darkorange;
+        }
+
+        p {
+            scroll-margin: 5rem;
+            letter-spacing: 0.1vb;
+        }
+
+
+        /* h1 h2 h3 h4 h5 h6 p {
+            text-align: center;
+            align-items: center;
+        } */
+        h1 {
+            align-items: center;
+            text-align: center;
+        }
+
+        h1 header {
+            align-items: center;
+            text-align: center;
+        }
+
+        header {
+            text-align: center;
+
+        }
+
+        ul {
+            margin: 5px 0px;
+            align-items: center;
+        }
+
+        #list-menu-header li {
+            list-style: none;
+            display: inline-flex;
+            padding-left: 3rem;
+            padding-bottom: none;
+            align-items: center;
+        }
+
+        #list-menu-header {
+            text-align: center;
+        }
+
+        #link-contato li {
+            list-style: none;
+            display: inline-flex;
+            padding-left: 0.5rem;
+            padding-bottom: none;
+            align-items: center;
+        }
+
+        #link-contato a {
+            margin-bottom: none;
+            display: inline;
+            text-decoration: none;
+            color: rgba(36, 12, 255, 0.753);
+        }
+
+        #contato {
+            text-align: center;
+            margin-top: 0.4rem;
+        }
+
+
+        #main {
+            display: inline;
+            align-items: ceneter;
+            text-align: center;
+        }
+
+        #video-1 iframe {
+            margin-top: -0.9rem;
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
+            border-radius: 5rex;
+        }
+
+        #video-2 iframe {
+            margin-top: -0.9rem;
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
+            border-radius: 5rex;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <header>
+            <h1>Geração Tech</h1>
+            <h2>Os melhores conceitos sobre o desenvolvimento web, você encontra aqui!</h2>
+            <p align="justify">Imagine ter o poder de criar websites e aplicativos incríveis, que podem ser acessados
+                por qualquer
+                pessoa no mundo! Com o conhecimento em Desenvolvimento Web, você abre as portas para um universo de
+                possibilidades e oportunidades.</p>
+            <nav>
+                <ul id="list-menu-header">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#main">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+    </section>
+    <section>
+        <main id="main">
+            <h1>HTML 5</h1>
+            <h4><sub>Por </sub><u>Gildemberg Leite</u></h4>
+            <section id="video-aulas">
+                <!-- 1. Tags HTML - 1.1. Aula 01 -->
+                <div id="video-1">
+                    <h5>Aula 1</h5>
+                    <iframe width="448" height="252" src="https://www.youtube.com/embed/Wc8DXmMrbwk?si=4mi8WcqXvSf--buw"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                    <!-- 1.1. Aula 01.2 -->
+                    <iframe width="448" height="252" src="https://www.youtube.com/embed/BbBxSl5bQq0?si=isQvAhzYgSUqpTBY"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                </div>
+                <br>
+                <!-- 1.1. Aula 02.1 -->
+                <div id="video-2">
+                    <h5>Aula 2</h5>
+                    <iframe width="448" height="252" src="https://www.youtube.com/embed/MwvSavZSSsM?si=iWsMhJHmGMSJ8w0P"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <!-- 1.1. Aula 02.1 -->
+                    <iframe width="448" height="252" src="https://www.youtube.com/embed/QxuBmyAo1ao?si=uuuAZu2Vuz2015d2"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <br>
+                    <small>
+                        <p>Mais conteúdos relacionados no YouTube <a
+                                href="https://www.youtube.com/@DigitalCollegebr">Digital College</a></p>
+                    </small>
+                </div>
+                <br>
+                <div id="audio">
+                    <audio src="./file/snaps.mp3" controls></audio>
+                </div>
+            </section>
+        </main>
+    </section>
+    <footer id="contato">
+        <small>
+            <h4>Contatos</h4>
+        </small>
+        <ul id="link-contato">
+            <li><a href="https://www.linkedin.com/in/lima-junior-2249b277/">Linkedin</a></li>
+            <li><a href="https://github.com/fjdslimajunior">Github</a></li>
+            <li><a href="mailto:junior1842s@gmail.com">e-mail</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

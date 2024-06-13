@@ -10,7 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-<!-- 
+    <!-- 
 instruções
 Cabeçalho da Página:
 Dentro da tag <head>, adicione a tag <style> para definir alguns estilos básicos inline para a página;
@@ -24,6 +24,7 @@ Adicione uma nova seção para mídia, incluindo áudio e vídeo
 -->
     <style>
         body {
+            background-color: rgba(95, 186, 228, 0.315);
             font-family: sansita, monospace;
             display: block;
         }
@@ -182,13 +183,14 @@ Adicione uma nova seção para mídia, incluindo áudio e vídeo
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <br>
                     <small>
-                        <p>Mais conteúdos relacionados no YouTube <a
-                                href="https://www.youtube.com/@DigitalCollegebr">Digital College</a></p>
+                        <p>Mais conteúdos relacionados no YouTube
+                            <a href="https://www.youtube.com/@DigitalCollegebr">Digital College</a>
+                        </p>
                     </small>
                 </div>
                 <br>
                 <div id="audio">
-                    <audio src="./file/snaps.mp3" controls></audio>
+                    <audio src="./file/snaps.mp3" controls preload="auto" muted autoplay></audio>
                 </div>
             </section>
         </main>

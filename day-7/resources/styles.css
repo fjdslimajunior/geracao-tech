@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 * {
     margin: 0;
     padding: 0;
+    list-style: none;
+    text-decoration: none;
     font-family: "Poppins", sans-serif;
     font-size: 16px;
 }
@@ -10,64 +11,81 @@
 {
     box-sizing:inherit;
 }
+/*  
 html{
     box-sizing: border-box;
-}
-body {
-    background-color: #ebebeb;
+} */
 
-}
 
 .container {
-    box-sizing: border-box;
-    display: block;
-}
-
-.box {
-    /* height: 25em; */
-    box-sizing: border-box;    
+    display: flex;
+    align-items: center;
+    justify-content: ;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
     
 
 }
 
+.container > .box {
+    justify-content: center;
+    display: flex;    
+}
+
 #header {
     padding: 0rem 0rem 0rem;
-    margin: 3em 3em 0em;
-    height: 20rem;
+    /* margin: 3em 3em 0em; */
+    width: 98vw;
+    height: 40vh;
     background-color:#9842d9;
     color: aliceblue;
+    margin-top: 1rem;
 }
+
 .header {
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    height: 4rem;
-    padding-top: 1rem;
     background-color:#890783;
+    width: 100%;    
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #main {
-    padding: 0.5rem 0.5rem 0.5rem;
-    margin: 0em 3em 0em;
+    height: 100%;
+    width: 98vw;
+    text-align: center;
+    justify-content: center;
     background-color: #ffffff;
     color:#890783;
 }
 .main {
     align-items: center;
-    text-align: center;
-    width: 100%;
-    height: 36rem;
-    padding-top: 2rem;
-    background-color:#ffffff;
-}
-.p-main {
-    color: black;
     text-align: left;
-    padding: 4rem 15rem 0rem 15rem;
+    justify-content: center;
 }
+
+.text-main {
+    margin: 5rem 5rem 5rem 5rem;
+    align-content: center;
+}
+.text-footer{
+    align-items: center;
+
+}
+
+p {
+    font-size: large;
+}
+
 
 /******************************************/
 /*TEAM*/
+#equipe {
+    justify-content: center;
+    margin-bottom: 5rem;
+}
 .equipe{
     padding: 3rem 0rem 0rem 0rem;
     align-items: center;
@@ -102,21 +120,6 @@ body {
     margin-top: 0.5rem;
     background-color: #9842d9;
 }
-#footer {
-    padding: 0.5rem 0.5rem 0.5rem;
-    margin: 0em 3em 0em;
-    background-color: #890783;
-    color:#ffffff;
-    text-align: center;
-}
-.footer {
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    height: 4rem;
-    padding-top: 1rem;
-    /* background-color:#9842d9; */
-}
 .team-1-dev {
     padding-top: 1rem;
 }
@@ -127,14 +130,31 @@ body {
     padding-top: 1rem;
     align-items: center;
 }
+.section-equip {
+    margin: 30px 0 0 0;
+}
 
 .sublinha {
     padding: 0 0 0 0;
     border: #9842d9 solid 1px;
-    margin: 10px 20px 0 48.3%;
+    margin: 10px 20px 0 48%;
     width: 68px;    
 }
 
-.section-equip {
-    margin: 30px 0 0 0;
+
+#footer {
+    width: 98vw;
+    margin-bottom: 1rem;
+    background-color: #890783;
+    color:#ffffff;
+    display: flex;    
+    justify-content: center;
+}
+.footer {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 4rem;
+    justify-content: center;
+    margin-top:2rem ;
 }

@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+*, *::before, *::after 
+{
+    box-sizing:inherit;
+}
+html{
+    box-sizing: border-box;
+}
+body {
+    background-color: #ebebeb;
+
+}
+
+.container {
+    box-sizing: border-box;
+    display: block;
+}
+
+.box {
+    /* height: 25em; */
+    box-sizing: border-box;    
+    
+
+}
+
+#header {
+    padding: 0rem 0rem 0rem;
+    margin: 3em 3em 0em;
+    height: 20rem;
+    background-color:#9842d9;
+    color: aliceblue;
+}
+.header {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 4rem;
+    padding-top: 1rem;
+    background-color:#890783;
+}
+
+#main {
+    padding: 0.5rem 0.5rem 0.5rem;
+    margin: 0em 3em 0em;
+    background-color: #ffffff;
+    color:#890783;
+}
+.main {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 36rem;
+    padding-top: 2rem;
+    background-color:#ffffff;
+}
+.p-main {
+    color: black;
+    text-align: left;
+    padding: 4rem 15rem 0rem 15rem;
+}
+
+/******************************************/
+/*TEAM*/
+.equipe{
+    padding: 3rem 0rem 0rem 0rem;
+    align-items: center;
+}
+.team-1 {
+    display: inline-block;
+}
+.circle-1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 0.5rem;
+    background-color: #9842d9;
+}
+.team-2 {
+    display: inline-block;  
+}
+.circle-2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 0.5rem;
+    background-color: #9842d9;
+}
+.team-3 {
+    display: inline-block;
+}
+.circle-3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 0.5rem;
+    background-color: #9842d9;
+}
+#footer {
+    padding: 0.5rem 0.5rem 0.5rem;
+    margin: 0em 3em 0em;
+    background-color: #890783;
+    color:#ffffff;
+    text-align: center;
+}
+.footer {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 4rem;
+    padding-top: 1rem;
+    /* background-color:#9842d9; */
+}
+.team-1-dev {
+    padding-top: 1rem;
+}
+.team-2-dev {
+    padding-top: 1rem;
+}
+.team-3-dev {
+    padding-top: 1rem;
+    align-items: center;
+}
+
+.sublinha {
+    padding: 0 0 0 0;
+    border: #9842d9 solid 1px;
+    margin: 10px 20px 0 48.3%;
+    width: 68px;    
+}
+
+.section-equip {
+    margin: 30px 0 0 0;
+}

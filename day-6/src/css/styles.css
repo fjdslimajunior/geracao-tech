@@ -1,0 +1,197 @@
+/* 9 - Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+FR+Moderne:wght@100..400&display=swap');
+
+@media(max-width: 1440px) {
+    section {
+        width: 1224px;
+        /* background-color: #0055ff; */
+    }
+}
+
+@media(max-width: 768px) {
+    section {
+        width: 700px;
+        /* background-color: #0fa5ff; */
+    }
+}
+
+@media(max-width: 302px) {
+    section {
+        width: 300px;
+        /* background-color: #ff55ff; */
+    }
+}
+
+/* 5 - CSS Externo */
+body {
+    background-color: #374046;
+}
+
+.hab-1 {
+    color: bisque;
+    width: 50px;
+    height: 50px;
+}
+
+.hab-2 {
+    color: burlywood;
+    width: 50px;
+    height: 50px;    
+}
+
+.hab-3 {
+    color: coral;
+    width: 100px;
+    height: 100px;   
+}
+.hab-4 {
+    color: coral;
+    width: 100px;
+    height: 100px;   
+}
+.hab-5 {
+    color: coral;
+    width: 100px;
+    height: 100px;   
+}
+.hab-6 {
+    color: coral;
+    width: 100px;
+    height: 100px;   
+}
+.hab-6 {
+    color: coral;
+    width: 100px;
+    height: 100px;   
+}
+.hab-7 {
+    color: coral;
+    width: 100px;
+    height: 100px;   
+}
+
+
+.hab-orientation {
+    display: inline-flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+/* 8 - Unidades Absolutas e Relativas */
+.bio {
+    text-align: justify;
+    align-items: center;
+    color: pink;
+    margin: 0.1rem;
+    padding: 0.1rem;
+}
+
+/*Extra atividade!*/
+h1 {
+    font-size: 50px;
+}
+p,.perfil {
+    align-items: center;
+    text-align: center;
+    color: #EF981D;
+    /* font-size: 25px; */
+}
+p {
+    color: #EF981D;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f58d4e;
+}
+a {
+    text-decoration: none;
+    color: #467A9B;
+    text-shadow: #000 solid 2px;
+    margin: 30px;
+    text-shadow: rgba(0, 0, 0, 0.404) 0.1em 0.1em 0.2em;;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    list-style-type: none;
+    text-rendering: auto;
+    /* box-shadow: #00000027 0.1em 0.1em 9.2em; */
+}
+
+.img-icon {
+    width: 5rem;
+    height: 5rem;
+    margin: 0;
+}
+
+#img-perfil {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: #f58d4e solid 2px;
+    align-items: center;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 0.7rem; 
+    margin-bottom: 0;
+}
+
+
+.perfil {
+    margin: 0;    
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2px;
+    /* height: 200px;
+    width: 180vh; */
+    /* background-color: #aa005f; */
+}
+
+.child {
+    width: 50%;
+    height:50%;
+    justify-content: center;
+    /* border: 1px solid #374046; */
+    background-color: #374046;
+}
+#header {
+    margin: 0%;
+    padding: 0rem;
+    width: 100rem;
+    height: 25rem;
+    /* background-color: red; */
+}
+
+#main {
+    margin: 0%;
+    padding: 0rem;
+    width: 100rem;
+    height: 28rem;
+    /* background-color: red; */
+    align-items: center;
+    text-align: center;
+}
+#footer {
+    margin: 0%;
+    padding: 0px;
+    width: 100%;
+    height: 5rem;
+    text-align: center;
+    /* background-color: red; */
+    /* align-items: center;
+    text-align: center; */
+}
+
+.contact {
+    text-align: center; 
+    justify-content: end;  
+    color: #f58d4e;
+    background-color: rgba(0, 0, 0, 0.204);
+}

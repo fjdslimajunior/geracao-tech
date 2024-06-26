@@ -1,0 +1,13 @@
+{
+    "tarefas": [
+        {
+            "titulu": "tarefa-1",
+            "descrição": "fazer tal coisa",
+            "author": "LimaJr",        
+            "requisito-1": "Node + NPM",
+            "comando-inicializacao": "npm init -y(Deve ter como resultado um arquivos package.json, com informações que identificam a API)",
+            "comando-instalacao-servidor": "npm install json-server (Deve criar um arquivo (package-lock.json - com informações e dados de versões de packotes/bibliotecas)",
+            "comando-consumo-dados": "npx jason-server api.json - Deve inicializar a conexão do servidor com os dados do arquivos criado api.json"
+        }
+    ]   
+}

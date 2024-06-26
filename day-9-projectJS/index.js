@@ -2,4 +2,4 @@
 //EXTRUTURA DE UMA FUNÇÃO
 const mensagemElemento = document.getElementById('mensagem');
 
-mensagemElemento.textContent = 'Olá, Mundo! Este é meu primeiro Hello World com JavaScript!';
+mensagemElemento.textContent = 'Valor alterado! - isso é uma mensagem nova.';

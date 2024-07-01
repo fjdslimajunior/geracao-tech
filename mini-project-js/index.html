@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Project JS</title>
+</head>
+
+<body>
+    <header>
+        <input type="text" id="search" placeholder="Serach on title">
+    </header>
+    <main>
+        <section id="tasks">
+            <h2>Tasks<button onclick="openModal()">New Task</button></h2>
+            <!-- <h6>There are no tasks registered!</h6> -->
+            <ul id="list"></ul>
+        </section>
+        <section id="overlay" onclick="closeModal()"></section>
+        <div id="createTask" class="modal">
+            <form onsubmit="newTask()">
+                <h3>Cerate Task <box-icon name='x' size="md" onclick="closeModal()"></box-icon></h3>
+                <label for="title">Title</label>
+
+                    <input id="titulo" type="text" placeholder="Título" required>
+
+                <label for="description">Description</label>
+
+                    <textarea id="descricao" placeholder="Descrição" required></textarea>
+                <button>Create</button>
+            </form>
+        </div>
+    </main>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="index.js" defer></script>
+</body>
+
+</html>

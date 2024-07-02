@@ -1,1 +1,1 @@
-Esto é a introdução do git e Github.
+Esta é a introdução do git e Github.

@@ -3,4 +3,4 @@ A iniciativa tem o objetivo de oferecer Formação em Desenvolvimento Web, com �
 
 <a href="https://geracaotech.iel-ce.org.br/">Saiba mais!</a>
 
-Este repositório segue a linha cronológica de aplicação da grade curricular,conceito e testes ligados ao desenvolvimento web e relacionado ao projeto. 
+Este repositório segue a linha cronológica de aplicação da grade curricular,conceito e testes ligados ao desenvolvimento web e conteúdos relacionados ao projeto. 

@@ -1,49 +1,14 @@
 {
   "tasks": [
     {
-      "titulo": "task 1",
-      "descricao": "this is task one",
+      "titulo": "First task",
+      "descricao": "This is my first task being created.",
       "id": 1
     },
     {
-      "titulo": "task 2",
-      "descricao": "this is not task 3",
+      "titulo": "Seconde task",
+      "descricao": "This is the second...",
       "id": 2
-    },
-    {
-      "titulo": "trhis is 3",
-      "descricao": "three",
-      "id": 3
-    },
-    {
-      "titulo": "sfsdfs",
-      "descricao": "ssssssssssssssfffffffffffffff",
-      "id": 4
-    },
-    {
-      "titulo": "valor diferente",
-      "descricao": "()",
-      "id": 5
-    },
-    {
-      "titulo": "valor 1",
-      "descricao": "valor 1",
-      "id": 6
-    },
-    {
-      "titulo": "valor 2",
-      "descricao": "valor",
-      "id": 7
-    },
-    {
-      "titulo": "valor 3",
-      "descricao": "valor",
-      "id": 8
-    },
-    {
-      "titulo": "valor 4",
-      "descricao": "valor",
-      "id": 9
     }
   ]
 }

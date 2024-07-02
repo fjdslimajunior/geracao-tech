@@ -95,7 +95,7 @@ function checkTask() {
     console.log(lis)
     if (search.value.length > 0) {
         lis.forEach(li => {
-            //pesquisa funcionando dentro da descrição também
+            //pesquisa funcionando dentro do campo de descrição
             if (!li.children[0] || !li.children[1].innerText.includes(search.value)) {
                 li.classList.add('hidden');
             }

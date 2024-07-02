@@ -1,8 +1,7 @@
 ## Criação de um mini projeto usando Javascript, HTML e CSS
 
-    - Formulário de cadastro de tarefas com funcionálidade de um campo de pesquisa, com função direcionada tanto para o campo "título" quanto para o campo de "descrição".
-    - Função de deletar tarefas já criadas e listadas na página inicial. 
-    - Funcionalidade de criação de tarefa ao interação com o botão de "New Task".
+    - Formulário de cadastro de tarefas com campo de pesquisa, função direcionada para o campo "título" e campo de "descrição".
+    - Funcionalidade de criação de tarefa ao interagir com o botão de "New Task".
     - Botão de Lixeira Funcional, excluí qualquer task listada a partir da interação.
 
 >Javascript 

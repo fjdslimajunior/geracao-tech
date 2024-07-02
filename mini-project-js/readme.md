@@ -8,23 +8,28 @@
 
     Fundamentos     
 
-> Comunicação HTTP
+>Comunicação HTTP
 
     Method: Get, Post, Put, Delete, patch
     Manipução de dados DOM
 
 
-> HTML
+>HTML
 
     Forms/
     Divs/
     Class/
     Nomeclaturas/
 
-> CSS
+>CSS
 
     Estilos
-
+    Background
+    #efefef
+    Fundamental collors
+    #ed1c22 (camp selector)
+    #f49050 (secundary)
+    #fcc996 (primary color)
 ### Faça um bom proveito. Direitos públicos use como bem entender!
 
 $Agradecimentos$

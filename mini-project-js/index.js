@@ -44,12 +44,12 @@ function insertTasks(tasksList) {
         tasksList.map(tasks => {
             list.innerHTML += `
             <li>
-                    <h5>${tasks.titulo}</h5>
-                    <p>${tasks.descricao}</p>
-                    <div class="actions">
-                        <box-icon name='trash' type='solid' size="sm"></box-icon>
-                    </div>
-                </li>
+                <h5>${tasks.titulo}</h5>
+                <p>${tasks.descricao}</p>
+                <div class="actions">
+                    <box-icon name='trash' type='solid' size="sm" onclick="deleteTask(${tasks.id})"></box-icon>
+                </div>
+            </li>
             `;
         })
     }
@@ -73,6 +73,42 @@ function newTask() {
         console.log(res);
         closeModal();
         searchTasks();
+        let form = document.querySelector("#newTask, form");
+        form.reset();
     })
 }
-    
+//DELETAR DADOS
+function deleteTask(id) {
+    fetch(`http://localhost:3000/tasks/${id}`, {
+        method: "DELETE",
+    })
+        .then(res => res.json())
+        .then(res => {
+            alert("Task deleted successfully! ");
+            searchTasks();
+        })
+}
+
+//BARRA DE PESQUISA
+function checkTask() {
+    let lis = document.querySelectorAll("ul li");
+    console.log(lis)
+    if (search.value.length > 0) {
+        lis.forEach(li => {
+            //pesquisa funcionando dentro da descrição também
+            if (!li.children[0] || !li.children[1].innerText.includes(search.value)) {
+                li.classList.add('hidden');
+            }
+            else {
+                li.classList.remove('hidden');
+            }
+        })
+    } else {
+        lis.forEach(li => {
+            li.classList.remove('hidden');
+        })
+    }
+}
+
+
+// let lisDescription = document.querySelectorAll("ul li p");

@@ -92,11 +92,12 @@ function deleteTask(id) {
 //BARRA DE PESQUISA
 function checkTask() {
     let lis = document.querySelectorAll("ul li");
+    // lis = lis.toLowerCase();
     console.log(lis)
     if (search.value.length > 0) {
         lis.forEach(li => {
             //pesquisa funcionando dentro do campo de descrição
-            if (!li.children[0] || !li.children[1].innerText.includes(search.value)) {
+            if (!li.children[0].innerText.includes(search.value) || !li.children[1].innerText.includes(search.value)) {
                 li.classList.add('hidden');
             }
             else {
@@ -109,6 +110,4 @@ function checkTask() {
         })
     }
 }
-
-
 // let lisDescription = document.querySelectorAll("ul li p");

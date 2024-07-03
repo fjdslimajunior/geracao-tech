@@ -22,19 +22,19 @@
         <div id="createTask" class="modal">
             <form onsubmit="newTask()">
                 <h3>Cerate Task <box-icon name='x' size="md" onclick="closeModal()"></box-icon></h3>
-                <label for="title">Title</label>
+                <label for="titulo">Title</label>
 
-                    <input id="titulo" type="text" placeholder="Título" required>
+                    <input name="titulo" id="titulo" type="text" placeholder="Título" required>
 
-                <label for="description">Description</label>
+                <label for="descricao">Description</label>
 
-                    <textarea id="descricao" placeholder="Descrição" required></textarea>
+                    <textarea name="descricao" id="descricao" placeholder="Descrição" required></textarea>
                 <button>Create</button>
             </form>
         </div>
     </main>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-    <script src="index.js" defer></script>
+    <script src="./index.js" defer></script>
 </body>
 
 </html>

@@ -6,17 +6,34 @@
 
 >Javascript 
 
-    Fundamentos     
+    Fundamentos    
+    Funções
+        openModal()
+        closeModal()
+        searchTasks()
+        searchTasks()
+        insertTasks()
+        newTask()
+        deleteTask()
+        CheckTask()
+        
 
 >Comunicação HTTP
 
     Method: Get, Post, Put, Delete, patch
     Manipução de dados DOM
+    Uso do fetch() api. 
 
 
 >HTML
 
-    Forms/
+    Forms/ 
+    <buttons>
+    <ul>
+    <label>
+    <textarea>
+
+
     Divs/
     Class/
     Nomeclaturas/

@@ -1,9 +1,10 @@
-// import { useState } from 'react'
+import { useEffect } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 // import './App.css'
 import Header from './components/Header'
 import Banners from './components/Banners'
+import { Component1, Component2 } from './components/VariosComponents'
 
 // function App() {
 //   const [count, setCount] = useState(0)
@@ -40,16 +41,25 @@ import Banners from './components/Banners'
 
 // export default App
 const Extructure = () => {
-    return (
-      <>
+  useEffect(() => {
+    console.log("estou usando efeito de  conectado...")
+
+    return () => {
+      console.table("lista de desconect")
+    }
+  }, [])
+  return (
+    <>
       <div>
         <h1>Título</h1>
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus doloremque, veritatis debitis sequi, eius aut voluptatem dignissimos dolore recusandae sed omnis dolor ex asperiores consectetur, eaque earum commodi numquam facilis?</p>
-      <Header />
-      <Banners />
+        <Header />
+        <Banners />
+        <Component1/>
+        <Component2/>
       </div>
-      </>
-    )
-  }
+    </>
+  )
+}
 
 export default Extructure
